@@ -1,14 +1,17 @@
-<html> 
-   <body>
-     <h1>Bouncing Ball Challenge</h1>
-   </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bouncing Ball Challenge</title>
+  </head>
+    <body>
+      <h1>Bouncing Ball Challenge</h1>
+    </body>
  </html>
-
 <div id="ballGreen" style="
   z-index:5;
   position:absolute;
   left:0px;
-  top:50px;
+  top:75px;
   width:50px;
   height:50px;
   border-radius:50%;
@@ -18,47 +21,47 @@
   z-index:5;
   position:absolute;
   left:0px;
-  top:100px;
+  top:135px;
   width:50px;
   height:50px;
   border-radius:50%;
   background: red"></div>
 
 <div id="ballYellow" style="
-z-index:5;
-position:absolute;
-left:0px;
-top:150px;
-width:50px;
-height:50px;
-border-radius:50%;
-background: yellow"></div>
+  z-index:5;
+  position:absolute;
+  left:0px;
+  top:185px;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background: yellow"></div>
 
 <div id="ballPurple" style="
-z-index:5;
-position:absolute;
-left:0px;
-top:200px;
-width:50px;
-height:50px;
-border-radius:50%;
-background: purple"></div>
+  z-index:5;
+  position:absolute;
+  left:0px;
+  top:235px;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background: purple"></div>
 
 <div id="ballOrange" style="
-z-index:5;
-position:absolute;
-left:0px;
-top:250px;
-width:50px;
-height:50px;
-border-radius:50%;
-background: orange"></div>
+  z-index:5;
+  position:absolute;
+  left:0px;
+  top:285px;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background: orange"></div>
 
 <div id="ballBlue" style="
   z-index:5;
   position:absolute;
   left:0px;
-  top:300px;
+  top:335px;
   width:50px;
   height:50px;
   border-radius:50%;
@@ -72,7 +75,7 @@ var Xmax = 250;
 
 // green ball movement
 var ball = document.getElementById('ballGreen');
-var velocityGreen = 150; 
+var velocityGreen = 40; 
 var positionGreenX = 0; 
 
 var reverseGreen = false; 
@@ -153,7 +156,7 @@ setInterval(moveYellowBall, 100);
 
 // purple ball movement
 var ball = document.getElementById('ballPurple');
-var velocityPurple = 50; 
+var velocityPurple = 30; 
 var positionPurpleX = 0; 
 
 var reversePurple = false; 
@@ -175,7 +178,7 @@ function movePurpleBall() {
   }
 }
 
-setInterval(movePurpleBall, 100);
+setInterval(movePurpleBall, 200);
 
 
 // orange ball movement
