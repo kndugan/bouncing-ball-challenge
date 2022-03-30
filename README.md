@@ -4,6 +4,8 @@
 
 In this challenge, I created six different balls moving back and forth on the x axis at different speeds. I also created a boundry to go back and forth on the x axis.
 
+<img src="https://static1.squarespace.com/static/5b75fc7ea9e028d726dbaaa5/t/6243d05ba629d144dc4ad2ce/1648611419973/horizontal+balls+GitHub+Repo+Card+Template.png" width='400'/>
+
 The starter code was provided by MIT xPro.
 
 ## How to Run
